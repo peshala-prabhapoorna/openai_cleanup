@@ -21,7 +21,7 @@ for vs in vector_stores:
 
 print(f"Total number of vector stores: {vector_store_count}")
 
-delete_files = input(f"Delete all {vector_store_count} vector stores? (Y/N)").strip()
+delete_files = input(f"Delete all {vector_store_count} vector stores? (Y/N): ").strip()
 
 # Exit if user input is not 'Y'
 if delete_files != "Y":
